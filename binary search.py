@@ -13,7 +13,7 @@ while low<=high:
         c = 0
         break
     c = 1 
-if c==0:
+if c!=0:
     print ("we found the number",k,"it is at position",middle+1," of array")
 else : 
     print("It was not found")
