@@ -10,7 +10,7 @@ int binarysearch(int arr[],int low,int high,int key)
 	else
 	return binarysearch(arr,low,mid,key);
 	
-	return -1;
+	return 1;
 }
 int main()
 {
@@ -25,7 +25,7 @@ int main()
 	low=0;
 	high=n-1;
     p=binarysearch(arr,low,high,key);
-	if(p!=-1)
+	if(p!=1)
 	printf("The number %d present in array at position %d",key,p+1);
 	else
 	printf("The number %d is not present",key);
